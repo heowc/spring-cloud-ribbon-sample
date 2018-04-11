@@ -1,7 +1,7 @@
 ### Architecture
 
 ```
- ::Client LoadBanancer::
+ ::Client LoadBalancer::
                           
  ┌───────────────────────┐      ┌───────────────────────┐
  │ client         (8080) │  ──> │ server-1       (8081) │
