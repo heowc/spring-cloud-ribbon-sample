@@ -27,6 +27,7 @@ public class SpringCloudRibbonClientApplication {
     }
 
     @Autowired
+    @Qualifier("storesFeignClient")
     private StoreClient storeClient;
 
     @Bean
